@@ -177,7 +177,7 @@ ul {
 }
 
 .footer-links {
-  width: 25%;
+  width: 40%;
   padding: 0 15px;
 }
 
@@ -570,13 +570,15 @@ textarea {
 
 @media (max-width: 865px) {
   .logo {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
+/* ------------------MediaQueri  800 al 770 (perdida de la columna nav) --------------------------- */
+
 /* ------------------MediaQueri  1: 768px--------------------------- */
 
-@media (min-width: 771px) {
+@media (min-width: 800px) {
   .nav {
     max-height: none;
     top: 0;
